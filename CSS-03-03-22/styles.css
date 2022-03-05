@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(214, 198, 240);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.article1{
+    border: 1px solid black;
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.article2{
+    border: 1px solid black;
+    width: 60%;
+    height: 45%;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+
+
+}
+.article3{
+    border: 2px dotted red;
+    width: 60%;
+    height: 40%;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+color: red;
+
+}
+
+div span{
+    background-color:rgb(250, 216, 189) ;
+}
+#diff{
+    background-color:rgb(241, 234, 125) ;
+
+}
+.diff{
+    border:  2px dotted red;  
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.article1-p2{
+    border: 1px solid black;
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.article2-p2{
+    border: 2px dotted black;
+    width: 60%;
+    height: 45%;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+
+
+}
+.article3-p2{
+    border: 1px solid black;
+    width: 60%;
+    height: 40%;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+color: rgb(172, 124, 184);
+
+}
+
+th{
+    background-color: rgb(168, 236, 216);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: x-large;
+}
+#main{
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    padding: 15px;
+    
+
+}
+#sec{
+    background-color: rgb(228, 228, 228);
+    width: 10%;
+    
+}
+ li{
+    text-align:left ;
+}
+table{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
