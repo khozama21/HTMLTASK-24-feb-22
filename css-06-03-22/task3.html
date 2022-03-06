@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>task3</title>
+    <style>
+
+
+
+
+      .trafficLight {
+        background-color: rgb(58, 56, 56);
+        width: 50px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 5px;
+        border-radius: 10%;
+      }
+    
+      
+        
+      
+      .red {
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        background-color: gray;
+        animation: red 3s   infinite;
+      }
+      .yellow {
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        background-color: gray;
+        animation: yellow 3s   infinite;
+      }
+      .green {
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        background-color: gray;
+        animation: green 3s   infinite;
+      }
+
+      @keyframes red {
+        0%,
+        33% {
+          background-color: red;
+        }
+        34%,
+        100% {
+          background-color: gray;
+        }
+      }
+
+      @keyframes yellow {
+        0%,
+        33% {
+          background-color: gray;
+        }
+        34%,
+        66% {
+          background-color: yellow;
+        }
+        67%,
+        100% {
+          background-color: gray;
+        }
+      }
+
+      @keyframes green {
+        0%,
+        66% {
+          background-color: gray;
+        }
+    67%,
+        100% {
+          background-color: green;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="trafficLight">
+      <div class="red"></div>
+      <div class="yellow"></div>
+      <div class="green"></div>
+    </div>
+  </body>
+</html>
