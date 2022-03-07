@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns:repeat(10,200px);
+  grid-template-rows: repeat(10,100px);
+  row-gap: 10px;
+  column-gap: 10px;
+
+        }
+    #black
+    {background-color: black;
+        grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 1;
+    }
+
+
+    #orange
+    {background-color: orange;
+        grid-column-start: 1;
+  grid-column-end:5 ;
+  grid-row-start: 2;
+  grid-row-end: 6;
+    }
+    
+    #green
+    {background-color: green;
+        grid-column-start: 5;
+  grid-column-end:8 ;
+  grid-row-start: 2;
+  grid-row-end: 6;
+    }
+
+   
+    #blue
+    {background-color: blue;
+        grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  grid-row-end: 8;
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="black"></div>
+        <div id="orange"></div>
+        <div id="green"></div>
+        <div id="blue"></div>
+      
+
+    </div>
+</body>
+</html>
