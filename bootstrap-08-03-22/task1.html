@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .form-control {
+            width: 40px;
+            height: 30px;
+        }
+
+        blockquote {
+            text-align: center;
+            padding: 10%;
+        }
+
+        #sec1 {
+            background: linear-gradient(45deg, rgb(208, 187, 223), rgb(210, 147, 229), pink, rgb(209, 206, 206));
+            margin-top: 5px;
+
+        }
+
+        /* #sec2 {
+           
+
+        } */
+
+        .nav-custom {
+            background-color: rgb(225, 217, 235);
+
+        }
+
+        li {
+            color: rgb(55, 59, 63)f;
+            text-decoration: none;
+            background-color: transparent;
+        }
+
+        .nav-link {
+            margin-left: 10px;
+            margin-right: 10px;
+
+        }
+
+        .btn-custom {
+            background-color: rgb(240, 215, 240);
+            color: white;
+            border: 1px solid rgb(177, 176, 176);
+
+        }
+
+        .btn-custom:hover {
+            background-color: rgb(145, 77, 145);
+            color: white;
+            border: 1px solid rgb(177, 176, 176);
+
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg navbar-light nav-custom">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ml-auto">
+                    <li class="nav-item mr-auto ml-auto ">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active mr-auto ml-auto ">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item  mr-auto ml-auto">
+                        <a class="nav-link " href="#">Contact us </a>
+                    </li>
+                    <li class="nav-item dropdown  mr-auto ml-auto ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                </ul>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                </li>
+
+                <form class="form-inline">
+                    <input class="form-control mx-1" type="email" placeholder="Email" aria-label="email">
+                    <input class="form-control mx-1 " type="password" placeholder="password">
+                    <input class="form-control mx-1 btn btn-custom" type="button" value="Sign In ">
+
+                </form>
+            </div>
+        </nav>
+    </div>
+    <section id="sec1" class="container col-lg-12">
+        <div class="container">
+            <blockquote class="blockquote">
+                <h4>"The desire to create is one of the deepest yearnings of the human soul."</h4>
+                <footer class="blockquote-footer">Dieter F. Uchtdorf</footer>
+            </blockquote>
+
+
+        </div>
+    </section>
+    <section id="sec2" class="container col-lg-12">
+        <div class="container">
+            <div class="alert alert-warning" role="alert">
+                This is a warning alert—check it out!
+            </div>
+            <div class="container  d-lg-flex flex-row">
+                <div  >
+                    <h3>Heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa voluptate quia beatae quo sed.
+                        Temporibus dolorem dolor natus suscipit, delectus veritatis commodi facere id, corrupti in
+                        aperiam dolorum aspernatur laudantium?</p>
+                    <a href="#" class="btn btn-custom"> view details </a>
+                </div>
+
+
+                <div>
+                    <h3>Heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa voluptate quia beatae quo sed.
+                        Temporibus dolorem dolor natus suscipit, delectus veritatis commodi facere id, corrupti in
+                        aperiam dolorum aspernatur laudantium?</p>
+                    <a href="#" class="btn btn-custom"> view details </a>
+                </div>
+
+                <div>
+                    <h3>Heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa voluptate quia beatae quo sed.
+                        Temporibus dolorem dolor natus suscipit, delectus veritatis commodi facere id, corrupti in
+                        aperiam
+                        dolorum aspernatur laudantium?</p>
+                    <a href="#" class="btn btn-custom"> view details </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+</body>
+
+</html>
